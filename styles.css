@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #f1f1f1;
+    color: #0f1f2f;
+
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+}
+
+/* a:visited{
+    color: grey;
+} */
+
+
+ .avatar {
+    width: 200px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+
+ }
+
+ .info p {
+    color: rgb(98, 90, 90);
+    margin: 0;
+    /* font-style: italic;
+    font-weight: bold;
+    text-decoration: underline; */
+    /* text-transform: uppercase; */
+    /* letter-spacing: 2px; */
+    /* word-spacing: 10px; */
+ }
+
+ .info {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+ }
+
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+ .info-text {
+    margin-left: 40px;
+ }
+
+ .container {
+    padding-top: 30px;
+    max-width: 1000px;
+    margin: auto;
+ }
+ 
+ 
+ /* .social { */
+    /* background: green;
+    padding: 5px 10px 20px 30px;
+    padding-top/left/right/bottom: ;
+    margin: 10px;
+
+    border: 5px solid red;
+    border-bottom-color: purple;
+    border-top-style: dotted;
+    border-radius: 10px;
+    border-left-width: 15px; */
+ /* } */
+
+
+ /* .box-model > div{
+    float: left;
+    background: black;
+    height: 200px;
+    width: 25%;
+    border: 5px solid red;
+    box-sizing: border-box;
+ } */
+
+ .bg-yellow {
+    background: #fff9dc;
+ }
+
+ .bg-green {
+    background: #e5ffe7;
+ }
+ .bg-red {
+    background: #ffe5e5;
+ }
+
+ .bg-purple {
+    background: rgb(195, 166, 195);
+ }
+
+ .card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+ }
+
+ .card h2 {
+    margin-bottom: 15px;
+ }
+
+ .hobbies {
+    padding:0px 20px;
+    /* list-style: none; */ 
+ }
+
+ .hobbies li {
+    color: #86898f;
+    margin-bottom: 10px;
+ }
+
+.table {    
+    width: 100%;
+}
+
+.table td {
+    margin-bottom: 10px;
+}
+
+.table td:nth-child(2), 
+.table td:nth-child(3 ){
+    color: grey;
+}
+
+/* .table tr:nth-child(odd) {
+    background: red;
+} */
+
+.Tik-Tok {
+    list-style: none;
+    padding: 0px;
+
+}
+
+.Tik-Tok li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(152, 152, 152);
+}
+
+.contactwm h2 {
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    padding: 15px 0px 10px;
+    background: transparent;
+    color: black;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+}
+
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+
+.btn {
+    background: black;
+    padding: 15px 20px;
+    color: white;
+    border: none;
+    cursor: pointer ;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Position */
+
+/* .position {
+    border: 4px solid black;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background: #0f1f2f;
+} */
